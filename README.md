@@ -5,11 +5,9 @@
 
 ## Instructions
 
-Fork this repository. Create a feature branch to do your work. When done create a pull request back to bauermediaau as a new branch.
-
-There is no design, feel free to make the list as aesthetically pleasing as you like as long as the main requirements are met.
-
-If there are any questions, feel free to record any assumptions made.
+- Fork this repository. Create a feature branch to do your work. When done create a pull request back to bauermediaau as a new branch.
+- There is no design, feel free to make the list as aesthetically pleasing as you like as long as the main requirements are met.
+- If there are any questions, feel free to record any assumptions made.
 
 ## Details
 
