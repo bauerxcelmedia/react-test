@@ -13,7 +13,7 @@
 
 - use React for rendering the HTML list and button ui
 - use the Flux data flow pattern
-- code must be unit tested
+- code must be unit tested, adhere to SOLID principles and be self documenting
 - code may be written using ES2016/ES2017, enable any options you like in Babel
 - use local JSON files as pages of articles to display
 - all articles have unique ids, titles and images. one article is:
