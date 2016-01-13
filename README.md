@@ -1,26 +1,32 @@
-# React Test
+# React Test #
 
-- users can see a list of articles
-- users can press a button to load more articles
+https://github.com/bauerxcelmedia/react-test
 
-## Instructions
+## Main requirements: ##
 
-- Fork this repository. Create a feature branch to do your work. When done create a pull request back to bauermediaau as a new branch.
-- There is no design, feel free to make the list as aesthetically pleasing as you like as long as the main requirements are met.
-- If there are any questions, feel free to record any assumptions made.
+* users can see a list of articles
+* users can press a button to load more articles
 
-## Details
+### Implementation ###
 
-- use React for rendering the HTML list and button ui
-- use the Flux data flow pattern
-- code must be unit tested, adhere to SOLID principles and be self documenting
-- code may be written using ES2016/ES2017, enable any options you like in Babel
-- use local JSON files as pages of articles to display
-- all articles have unique ids, titles and images. one article is:
-```js
-{
-    id: 1,
-    title: "article title 1",
-    image: "http://placehold.it/300x250&text=image 1"
-}
-```
+* A list of 12 articles are initially loaded, but only 5 are displayed per page, in a thumbnail view.
+* Clicking on an article will set that item to be selected and display it's full size image.
+* Navigating between the pages is accomplished by using the NEXT and PREVIOUS PAGE buttons, which will update the current page number and the url.
+* Pressing 'Load More' will add another 8 articles increasing the maximum pages to 4 and disabling that button.
+
+### Technology ###
+
+* React v.0.14.3
+* Redux v.3 - Flux implementation
+* Redux DevTools
+* Webpack
+* React Router v.1
+* Redux Simple Router
+* ImmutableJS
+* Mocha/Chai
+
+### Setup ###
+
+* Install dependencies with npm install
+* Run webpack-dev-server with npm start
+* Navigate to http://localhost:8080
