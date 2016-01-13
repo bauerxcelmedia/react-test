@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 450px 0 20px;
+}
+
+.item-rows {
+    background-color: lightyellow !important;
+    cursor: pointer;
+}
+
+.pageInfoIconElement {
+    padding-right: 10px;
+}
